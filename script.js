@@ -109,7 +109,6 @@ const start = () => {
 
   const startCountdown = setInterval(() => {
     countdownOverlay.innerHTML = `<h1>${count}</h1>`;
-    console.log(count);
     // finished timer
 
     if (count === 0) {
